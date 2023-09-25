@@ -1,0 +1,19 @@
+.work {
+  height: 20px;
+  position: relative;
+  width: 50px;
+}
+
+.work .text-wrapper-2 {
+  color: var(--main-black);
+  font-family: var(--navigation-font-family);
+  font-size: var(--navigation-font-size);
+  font-style: var(--navigation-font-style);
+  font-weight: var(--navigation-font-weight);
+  left: 0;
+  letter-spacing: var(--navigation-letter-spacing);
+  line-height: var(--navigation-line-height);
+  position: absolute;
+  top: -1px;
+  white-space: nowrap;
+}
