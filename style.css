@@ -13,77 +13,39 @@
   position: relative;
 }
 
+.portfolio-work-page .overlap {
+  position: absolute;
+  width: 1120px;
+  height: 37px;
+  top: 100px;
+  left: 160px;
+}
+
 .portfolio-work-page .navigation-bar {
   position: absolute;
   width: 1120px;
   height: 35px;
-  top: 102px;
-  left: 160px;
-}
-
-.portfolio-work-page .site-logo {
-  position: absolute;
-  width: 67px;
-  height: 23px;
-  top: 10px;
+  top: 2px;
   left: 0;
 }
 
 .portfolio-work-page .menu {
-  position: absolute;
+  position: relative;
   width: 385px;
   height: 20px;
   top: 13px;
   left: 735px;
 }
 
-.portfolio-work-page .about {
+.portfolio-work-page .navlogo {
   position: absolute;
-  width: 59px;
-  height: 20px;
-  top: 0;
-  left: 81px;
-}
-
-.portfolio-work-page .text-wrapper {
-  position: absolute;
-  top: -1px;
-  left: 0;
-  font-family: var(--navigation-font-family);
-  font-weight: var(--navigation-font-weight);
-  color: var(--main-black);
-  font-size: var(--navigation-font-size);
-  letter-spacing: var(--navigation-letter-spacing);
-  line-height: var(--navigation-line-height);
-  white-space: nowrap;
-  font-style: var(--navigation-font-style);
-}
-
-.portfolio-work-page .contact {
-  position: absolute;
-  width: 77px;
-  height: 20px;
-  top: 0;
-  left: 308px;
-}
-
-.portfolio-work-page .work {
-  position: absolute;
-  width: 50px;
-  height: 20px;
+  width: 81px;
+  height: 35px;
   top: 0;
   left: 0;
 }
 
-.portfolio-work-page .playground {
-  position: absolute;
-  width: 104px;
-  height: 20px;
-  top: 0;
-  left: 172px;
-}
-
-.portfolio-work-page .overlap {
+.portfolio-work-page .overlap-group {
   position: absolute;
   width: 1120px;
   height: 2044px;
@@ -107,7 +69,7 @@
   left: 0;
 }
 
-.portfolio-work-page .text-wrapper-2 {
+.portfolio-work-page .text-wrapper {
   position: absolute;
   width: 360px;
   top: 0;
@@ -129,49 +91,29 @@
   left: 0;
 }
 
-.portfolio-work-page .a-senior-year-design {
+.portfolio-work-page .p {
   position: absolute;
   width: 580px;
   top: 64px;
   left: 476px;
   font-family: var(--heading-2-font-family);
   font-weight: var(--heading-2-font-weight);
-  color: transparent;
-  font-size: var(--heading-2-font-size);
-  letter-spacing: var(--heading-2-letter-spacing);
-  line-height: var(--heading-2-line-height);
-  font-style: var(--heading-2-font-style);
-}
-
-.portfolio-work-page .span {
   color: #606060;
-  font-family: var(--heading-2-font-family);
-  font-style: var(--heading-2-font-style);
-  font-weight: var(--heading-2-font-weight);
+  font-size: var(--heading-2-font-size);
   letter-spacing: var(--heading-2-letter-spacing);
   line-height: var(--heading-2-line-height);
-  font-size: var(--heading-2-font-size);
-}
-
-.portfolio-work-page .text-wrapper-3 {
-  color: #000000;
-  font-family: var(--heading-2-font-family);
   font-style: var(--heading-2-font-style);
-  font-weight: var(--heading-2-font-weight);
-  letter-spacing: var(--heading-2-letter-spacing);
-  line-height: var(--heading-2-line-height);
-  font-size: var(--heading-2-font-size);
 }
 
 .portfolio-work-page .body {
   position: absolute;
   width: 1120px;
   height: 473px;
-  top: 397px;
+  top: 1571px;
   left: 0;
 }
 
-.portfolio-work-page .text-wrapper-4 {
+.portfolio-work-page .text-wrapper-2 {
   position: absolute;
   width: 326px;
   top: -1px;
@@ -185,7 +127,7 @@
   white-space: nowrap;
 }
 
-.portfolio-work-page .overlap-group {
+.portfolio-work-page .overlap-group-2 {
   position: absolute;
   width: 356px;
   height: 169px;
@@ -193,7 +135,7 @@
   left: 0;
 }
 
-.portfolio-work-page .p {
+.portfolio-work-page .text-wrapper-3 {
   position: absolute;
   width: 356px;
   top: 0;
@@ -206,7 +148,7 @@
   line-height: 21.9px;
 }
 
-.portfolio-work-page .text-wrapper-5 {
+.portfolio-work-page .text-wrapper-4 {
   position: absolute;
   width: 315px;
   top: 101px;
@@ -242,7 +184,6 @@
   height: 365px;
   top: 0;
   left: 480px;
-  background-color: var(--main-gray);
 }
 
 .portfolio-work-page .seperator {
@@ -261,44 +202,29 @@
   left: 0;
 }
 
-.portfolio-work-page .text-wrapper-6 {
-  position: absolute;
-  width: 356px;
-  top: 43px;
-  left: 0;
-  font-family: "Inter-Regular", Helvetica;
-  font-weight: 400;
-  color: var(--main-black);
-  font-size: 18px;
-  letter-spacing: -0.54px;
-  line-height: 21.9px;
-}
-
 .portfolio-work-page .body-3 {
-  top: 1571px;
+  top: 397px;
   position: absolute;
   width: 1120px;
   height: 473px;
   left: 0;
 }
 
-.portfolio-work-page .link-2 {
+.portfolio-work-page .text-wrapper-5 {
   position: absolute;
-  width: 326px;
-  top: 346px;
+  top: 1002px;
   left: 0;
-  font-family: var(--sub-header-link-font-family);
-  font-weight: var(--sub-header-link-font-weight);
+  font-family: var(--sub-text-font-family);
+  font-weight: var(--sub-text-font-weight);
   color: var(--main-gray);
-  font-size: var(--sub-header-link-font-size);
-  letter-spacing: var(--sub-header-link-letter-spacing);
-  line-height: var(--sub-header-link-line-height);
-  text-decoration: underline;
+  font-size: var(--sub-text-font-size);
+  letter-spacing: var(--sub-text-letter-spacing);
+  line-height: var(--sub-text-line-height);
   white-space: nowrap;
-  font-style: var(--sub-header-link-font-style);
+  font-style: var(--sub-text-font-style);
 }
 
-.portfolio-work-page .text-wrapper-7 {
+.portfolio-work-page .text-wrapper-6 {
   position: absolute;
   top: 415px;
   left: 0;
@@ -321,7 +247,7 @@
   background-color: transparent;
 }
 
-.portfolio-work-page .text-wrapper-8 {
+.portfolio-work-page .herman-skog-andersen {
   position: absolute;
   width: 271px;
   top: -1px;
@@ -336,37 +262,7 @@
   font-style: var(--navigation-font-style);
 }
 
-.portfolio-work-page .text-wrapper-9 {
-  position: absolute;
-  width: 98px;
-  top: -1px;
-  left: 791px;
-  font-family: var(--navigation-font-family);
-  font-weight: var(--navigation-font-weight);
-  color: var(--main-black);
-  font-size: var(--navigation-font-size);
-  letter-spacing: var(--navigation-letter-spacing);
-  line-height: var(--navigation-line-height);
-  white-space: nowrap;
-  font-style: var(--navigation-font-style);
-}
-
-.portfolio-work-page .text-wrapper-10 {
-  position: absolute;
-  width: 98px;
-  top: -1px;
-  left: 921px;
-  font-family: var(--navigation-font-family);
-  font-weight: var(--navigation-font-weight);
-  color: var(--main-black);
-  font-size: var(--navigation-font-size);
-  letter-spacing: var(--navigation-letter-spacing);
-  line-height: var(--navigation-line-height);
-  white-space: nowrap;
-  font-style: var(--navigation-font-style);
-}
-
-.portfolio-work-page .text-wrapper-11 {
+.portfolio-work-page .text-wrapper-7 {
   position: absolute;
   width: 69px;
   top: -1px;
